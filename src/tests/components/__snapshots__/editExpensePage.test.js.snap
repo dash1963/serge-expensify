@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render editExpensePage 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <editExpensePage
+    editExpense={[Function]}
+    expense={
+        Object {
+            "amount": 195,
+            "createdAt": 0,
+            "description": "Gum",
+            "id": "1",
+            "note": "",
+          }
+    }
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    removeExpense={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "editExpense": [Function],
+      "expense": Object {
+        "amount": 195,
+        "createdAt": 0,
+        "description": "Gum",
+        "id": "1",
+        "note": "",
+      },
+      "history": Object {
+        "push": [Function],
+      },
+      "removeExpense": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "editExpensePage",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "editExpense": [Function],
+        "expense": Object {
+          "amount": 195,
+          "createdAt": 0,
+          "description": "Gum",
+          "id": "1",
+          "note": "",
+        },
+        "history": Object {
+          "push": [Function],
+        },
+        "removeExpense": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "editExpensePage",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
